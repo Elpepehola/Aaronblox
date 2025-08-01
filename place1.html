@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tippy Ship in Poison Lake - ROBLOX 2008</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: white; }
+        .container { width: 1000px; margin: 0 auto; }
+        .top-bar img.banner { width: 100%; height: auto; }
+        .nav-bar {
+            background-color: #93c2ea;
+            text-align: center;
+            padding: 5px;
+        }
+        .nav-bar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        .game-content { padding: 20px; }
+        .game-content h2 { text-align: center; }
+        .game-flex {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .game-image img { width: 400px; border: 1px solid #ccc; }
+        .game-info {
+            width: 300px;
+            border: 1px dashed gray;
+            padding: 10px;
+        }
+        .game-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 10px;
+        }
+        .game-buttons button {
+            padding: 10px 20px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Barra superior con banner -->
+        <div class="top-bar">
+            <img src="images/banner.jpg" alt="Banner de Roblox" usemap="#banner-map" class="banner">
+            <map name="banner-map">
+                <area shape="rect" coords="0,0,240,80" href="login.html" alt="Login">
+                <area shape="rect" coords="840,10,1010,70" href="games.html" alt="Jugar ahora">
+            </map>
+        </div>
+
+        <!-- Barra azul de navegación -->
+        <div class="nav-bar">
+            <a href="myroblox.php">Mi ROBLOX</a> |
+            <a href="games.html">Juegos</a> |
+            <a href="catalog.html">Catálogo</a> |
+            <a href="people.html">Personas</a> |
+            <a href="buildersclub.html">Club de Constructores</a> |
+            <a href="forum.html">Foro</a> |
+            <a href="news.html">Noticias</a> |
+            <a href="parents.html">Padres</a> |
+            <a href="help.html">Ayuda</a>
+        </div>
+
+        <!-- Contenido del juego -->
+        <div class="game-content">
+            <h2>Tippy Ship in Poison Lake</h2>
+            <div class="game-flex">
+                <div class="game-image">
+                    <img src="images/tippyship.png" alt="Tippy Ship Screenshot">
+                    <p style="text-align:center;">Favorite</p>
+                </div>
+                <div class="game-info">
+                    <h3>ROBLOX Place</h3>
+                    <p><strong>Creator:</strong> Mitch1995</p>
+                    <p><strong>Updated:</strong> 10 hours ago</p>
+                    <p><strong>Favorited:</strong> 3,158 times</p>
+                    <p><strong>Visited:</strong> 51,357 times</p>
+                    <p>If you are not on version 4 you are on an old server. Work together as a team to try to keep the ship stable and try not to die obviously.</p>
+                </div>
+            </div>
+            <div class="game-buttons">
+  <a href="file:///D:/Roblox-2007-Client-main/play_place1.bat">
+    <button>Visit Online</button>
+  </a>
+  <button onclick="location.href='visit-solo.html'">Visit Solo</button>
+</div>
+                <button onclick="location.href='visit-solo.html'">Visit Solo</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
